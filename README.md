@@ -6,7 +6,7 @@ https://dev-devin.github.io/NEW-CODE-QUIZ/
 
 # Screenshot
 
-![alt text](./assets/images/Screen%20Shot%202022-10-28%20at%2010.55.39%20AM.png "homepage")
+![alt text](./img/Screen%20Shot%202023-02-14%20at%204.44.19%20PM.png "homepage")
 
 # Usage
 

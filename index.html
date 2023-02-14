@@ -4,38 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/styles.css" />
-    <title>Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles.css" />
+    <title>Coding Quiz</title>
   </head>
+
   <body>
     <header>
       <div>
-        <button id="high-scores">View High Scores</button>
+        <h1>Coding Quiz</h1>
       </div>
-      <div id="time-inidcator">
-        <h2>Time:</h2>
-        <h2 id="time-left">30</h2>></h2>
+      <div class="topBar">
+        <span id="scores">View High Scores</span>
+        <span id="timer">Timer</span>
       </div>
     </header>
 
-    <div id="container">
-      <main id="quiz-display-area">
-        <h2 id="question-display">Coding Quiz</h2>
-        <nav id="question-options">
-        <p id="rules"><small>Try to answer as many questions as you can within the time limit. Each incorrect answer will deduct 10 seconds from your time remaining!</small></p>
-        <ol>
-          <li id="answer1"></li>
-          <li id="answer2"></li>
-          <li id="answer3"></li>
-          <li id="answer4"></li>
-        </ol>
-        </nav>
-        <div>
-          <button id="start">Start Quiz</button>
-        </div>
-        <div id="question-results"></div>
-      </main>
-    </div>
+    <main>
+      <section id="quiz">
+        <!-- this changes with each question after confirming to start -->
+        <h2>Let's start the quiz!</h2>
+        <br />
+        <button id="startbutton">Start</button>
+      </section>
+
+      <section id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </section>
+      <div id="feedback"></div>
+      <div id="scoreboard"></div>
+      <div id="highscores"></div>
+    </main>
+
+    <footer></footer>
 
     <script src="./assets/script.js"></script>
   </body>
