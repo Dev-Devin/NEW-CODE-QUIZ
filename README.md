@@ -4,7 +4,7 @@ https://dev-devin.github.io/NEW-CODE-QUIZ/
 
 # Discription
 
-This website allows users to learn javascript concepts and skills and compare their results to previous attempts and other users.
+-This website allows users to learn javascript concepts and skills and compare their results to previous attempts and other users.
 
 # Screenshot
 
