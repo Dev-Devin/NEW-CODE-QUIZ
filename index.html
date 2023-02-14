@@ -10,10 +10,32 @@
   <body>
     <header>
       <div>
-        <button id="high-scores">"View High Scores</button>
+        <button id="high-scores">View High Scores</button>
       </div>
-      <div id="time-inidcator"></div>
+      <div id="time-inidcator">
+        <h2>Time:</h2>
+        <h2 id="time-left">30</h2>></h2>
+      </div>
     </header>
+
+    <div id="container">
+      <main id="quiz-display-area">
+        <h2 id="question-display">Coding Quiz</h2>
+        <nav id="question-options">
+        <p id="rules"><small>Try to answer as many questions as you can within the time limit. Each incorrect answer will deduct 10 seconds from your time remaining!</small></p>
+        <ol>
+          <li id="answer1"></li>
+          <li id="answer2"></li>
+          <li id="answer3"></li>
+          <li id="answer4"></li>
+        </ol>
+        </nav>
+        <div>
+          <button id="start">Start Quiz</button>
+        </div>
+        <div id="question-results"></div>
+      </main>
+    </div>
 
     <script src="./assets/script.js"></script>
   </body>
