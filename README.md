@@ -1,7 +1,5 @@
 # NEW-CODE-QUIZ
 
-https://dev-devin.github.io/NEW-CODE-QUIZ/
-
 # Discription
 
 # Screenshot
