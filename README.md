@@ -1,12 +1,18 @@
 # NEW-CODE-QUIZ
 
+https://dev-devin.github.io/NEW-CODE-QUIZ/
+
 # Discription
+
+This website allows users to learn javascript concepts and skills and compare their results to previous attempts and other users.
 
 # Screenshot
 
 ![alt text](./img/Screen%20Shot%202023-02-14%20at%204.44.19%20PM.png "homepage")
 
 # Usage
+
+-Click start to begin, you have 60 seconds to answer 4 questions. correct answer chosen will alert correct and highlight green in text box.
 
 # License
 
